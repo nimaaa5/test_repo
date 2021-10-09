@@ -4,6 +4,7 @@ public class Main {
         String run(String run);
     }
 
+    // this is a simple main function for testing
     public static void main(String[] args){
         StringFunction exclaim = (s) -> s + "!";
         StringFunction ask = (s) -> s + "?";
