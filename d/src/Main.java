@@ -1,5 +1,5 @@
 public class Main {
-
+// this is an interface for checking it
     interface StringFunction{
         String run(String run);
     }
