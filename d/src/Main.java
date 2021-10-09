@@ -14,9 +14,14 @@ public class Main {
     }
 
     // this is a simple print function
-    private static void printFormatted(String hello, StringFunction format) {
-        String result = format.run(hello);
-        System.out.println(result);
+//     private static void printFormatted(String hello, StringFunction format) {
+//         String result = format.run(hello);
+//         System.out.println(result);
+//     }
+    
+    
+    private void print(){
+        System.out.println("Print");
     }
 
 
