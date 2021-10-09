@@ -12,7 +12,7 @@ public class Main {
         printFormatted("Hey", exclaim);
 
     }
-
+    // this is a simple print function
     private static void printFormatted(String hello, StringFunction format) {
         String result = format.run(hello);
         System.out.println(result);
