@@ -10,8 +10,9 @@ public class Main {
         StringFunction ask = (s) -> s + "?";
         printFormatted("Hi", exclaim);
         printFormatted("Hey", exclaim);
-
+        System.out.println("The best way to learn sth is making it practical.");
     }
+
     // this is a simple print function
     private static void printFormatted(String hello, StringFunction format) {
         String result = format.run(hello);
