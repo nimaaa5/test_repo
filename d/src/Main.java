@@ -1,7 +1,21 @@
 public class Main {
 
-    public static void Main(String[] args){
-        int x = 0;
-        System.out.println("Hello guys");
+    interface StringFunction{
+        String run(String run);
     }
+
+    public static void main(String[] args){
+        StringFunction exclaim = (s) -> s + "!";
+        StringFunction ask = (s) -> s + "?";
+        printFormatted("Hello", exclaim);
+        printFormatted("Hello", exclaim);
+    }
+
+    private static void printFormatted(String hello, StringFunction format) {
+        String result = format.run(hello);
+        System.out.println(result);
+    }
+
+
 }
+
